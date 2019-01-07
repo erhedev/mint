@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9B74D0D421E349310003C531 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B74D0D321E349310003C531 /* AppDelegate.swift */; };
+		9B74D0D621E349310003C531 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B74D0D521E349310003C531 /* ViewController.swift */; };
+		9B74D0D921E349310003C531 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B74D0D721E349310003C531 /* Main.storyboard */; };
+		9B74D0DB21E349340003C531 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B74D0DA21E349340003C531 /* Assets.xcassets */; };
+		9B74D0DE21E349340003C531 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B74D0DC21E349340003C531 /* LaunchScreen.storyboard */; };
+		9B74D0E921E349350003C531 /* MintTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B74D0E821E349350003C531 /* MintTests.swift */; };
+		9B74D0F421E349350003C531 /* MintUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B74D0F321E349350003C531 /* MintUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9B74D0E521E349350003C531 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9B74D0C821E349310003C531 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9B74D0CF21E349310003C531;
+			remoteInfo = Mint;
+		};
+		9B74D0F021E349350003C531 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9B74D0C821E349310003C531 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9B74D0CF21E349310003C531;
+			remoteInfo = Mint;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9B74D0D021E349310003C531 /* Mint.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mint.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B74D0D321E349310003C531 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9B74D0D521E349310003C531 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9B74D0D821E349310003C531 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9B74D0DA21E349340003C531 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9B74D0DD21E349340003C531 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9B74D0DF21E349340003C531 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B74D0E421E349350003C531 /* MintTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MintTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B74D0E821E349350003C531 /* MintTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MintTests.swift; sourceTree = "<group>"; };
+		9B74D0EA21E349350003C531 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B74D0EF21E349350003C531 /* MintUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MintUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B74D0F321E349350003C531 /* MintUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MintUITests.swift; sourceTree = "<group>"; };
+		9B74D0F521E349350003C531 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9B74D0CD21E349310003C531 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B74D0E121E349350003C531 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B74D0EC21E349350003C531 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9B74D0C721E349310003C531 = {
+			isa = PBXGroup;
+			children = (
+				9B74D0D221E349310003C531 /* Mint */,
+				9B74D0E721E349350003C531 /* MintTests */,
+				9B74D0F221E349350003C531 /* MintUITests */,
+				9B74D0D121E349310003C531 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9B74D0D121E349310003C531 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9B74D0D021E349310003C531 /* Mint.app */,
+				9B74D0E421E349350003C531 /* MintTests.xctest */,
+				9B74D0EF21E349350003C531 /* MintUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9B74D0D221E349310003C531 /* Mint */ = {
+			isa = PBXGroup;
+			children = (
+				9B74D0D321E349310003C531 /* AppDelegate.swift */,
+				9B74D0D521E349310003C531 /* ViewController.swift */,
+				9B74D0D721E349310003C531 /* Main.storyboard */,
+				9B74D0DA21E349340003C531 /* Assets.xcassets */,
+				9B74D0DC21E349340003C531 /* LaunchScreen.storyboard */,
+				9B74D0DF21E349340003C531 /* Info.plist */,
+			);
+			path = Mint;
+			sourceTree = "<group>";
+		};
+		9B74D0E721E349350003C531 /* MintTests */ = {
+			isa = PBXGroup;
+			children = (
+				9B74D0E821E349350003C531 /* MintTests.swift */,
+				9B74D0EA21E349350003C531 /* Info.plist */,
+			);
+			path = MintTests;
+			sourceTree = "<group>";
+		};
+		9B74D0F221E349350003C531 /* MintUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9B74D0F321E349350003C531 /* MintUITests.swift */,
+				9B74D0F521E349350003C531 /* Info.plist */,
+			);
+			path = MintUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9B74D0CF21E349310003C531 /* Mint */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B74D0F821E349350003C531 /* Build configuration list for PBXNativeTarget "Mint" */;
+			buildPhases = (
+				9B74D0CC21E349310003C531 /* Sources */,
+				9B74D0CD21E349310003C531 /* Frameworks */,
+				9B74D0CE21E349310003C531 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Mint;
+			productName = Mint;
+			productReference = 9B74D0D021E349310003C531 /* Mint.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9B74D0E321E349350003C531 /* MintTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B74D0FB21E349350003C531 /* Build configuration list for PBXNativeTarget "MintTests" */;
+			buildPhases = (
+				9B74D0E021E349350003C531 /* Sources */,
+				9B74D0E121E349350003C531 /* Frameworks */,
+				9B74D0E221E349350003C531 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9B74D0E621E349350003C531 /* PBXTargetDependency */,
+			);
+			name = MintTests;
+			productName = MintTests;
+			productReference = 9B74D0E421E349350003C531 /* MintTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9B74D0EE21E349350003C531 /* MintUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B74D0FE21E349350003C531 /* Build configuration list for PBXNativeTarget "MintUITests" */;
+			buildPhases = (
+				9B74D0EB21E349350003C531 /* Sources */,
+				9B74D0EC21E349350003C531 /* Frameworks */,
+				9B74D0ED21E349350003C531 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9B74D0F121E349350003C531 /* PBXTargetDependency */,
+			);
+			name = MintUITests;
+			productName = MintUITests;
+			productReference = 9B74D0EF21E349350003C531 /* MintUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9B74D0C821E349310003C531 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Erik Hede";
+				TargetAttributes = {
+					9B74D0CF21E349310003C531 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					9B74D0E321E349350003C531 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 9B74D0CF21E349310003C531;
+					};
+					9B74D0EE21E349350003C531 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 9B74D0CF21E349310003C531;
+					};
+				};
+			};
+			buildConfigurationList = 9B74D0CB21E349310003C531 /* Build configuration list for PBXProject "Mint" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9B74D0C721E349310003C531;
+			productRefGroup = 9B74D0D121E349310003C531 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9B74D0CF21E349310003C531 /* Mint */,
+				9B74D0E321E349350003C531 /* MintTests */,
+				9B74D0EE21E349350003C531 /* MintUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9B74D0CE21E349310003C531 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B74D0DE21E349340003C531 /* LaunchScreen.storyboard in Resources */,
+				9B74D0DB21E349340003C531 /* Assets.xcassets in Resources */,
+				9B74D0D921E349310003C531 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B74D0E221E349350003C531 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B74D0ED21E349350003C531 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9B74D0CC21E349310003C531 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B74D0D621E349310003C531 /* ViewController.swift in Sources */,
+				9B74D0D421E349310003C531 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B74D0E021E349350003C531 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B74D0E921E349350003C531 /* MintTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B74D0EB21E349350003C531 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B74D0F421E349350003C531 /* MintUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9B74D0E621E349350003C531 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9B74D0CF21E349310003C531 /* Mint */;
+			targetProxy = 9B74D0E521E349350003C531 /* PBXContainerItemProxy */;
+		};
+		9B74D0F121E349350003C531 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9B74D0CF21E349310003C531 /* Mint */;
+			targetProxy = 9B74D0F021E349350003C531 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9B74D0D721E349310003C531 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9B74D0D821E349310003C531 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9B74D0DC21E349340003C531 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9B74D0DD21E349340003C531 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9B74D0F621E349350003C531 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9B74D0F721E349350003C531 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9B74D0F921E349350003C531 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XJTZD7F823;
+				INFOPLIST_FILE = Mint/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = se.erikhede.ma17.Mint;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9B74D0FA21E349350003C531 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XJTZD7F823;
+				INFOPLIST_FILE = Mint/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = se.erikhede.ma17.Mint;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9B74D0FC21E349350003C531 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XJTZD7F823;
+				INFOPLIST_FILE = MintTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = se.erikhede.ma17.MintTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mint.app/Mint";
+			};
+			name = Debug;
+		};
+		9B74D0FD21E349350003C531 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XJTZD7F823;
+				INFOPLIST_FILE = MintTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = se.erikhede.ma17.MintTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mint.app/Mint";
+			};
+			name = Release;
+		};
+		9B74D0FF21E349350003C531 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XJTZD7F823;
+				INFOPLIST_FILE = MintUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = se.erikhede.ma17.MintUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Mint;
+			};
+			name = Debug;
+		};
+		9B74D10021E349350003C531 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XJTZD7F823;
+				INFOPLIST_FILE = MintUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = se.erikhede.ma17.MintUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Mint;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9B74D0CB21E349310003C531 /* Build configuration list for PBXProject "Mint" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B74D0F621E349350003C531 /* Debug */,
+				9B74D0F721E349350003C531 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B74D0F821E349350003C531 /* Build configuration list for PBXNativeTarget "Mint" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B74D0F921E349350003C531 /* Debug */,
+				9B74D0FA21E349350003C531 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B74D0FB21E349350003C531 /* Build configuration list for PBXNativeTarget "MintTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B74D0FC21E349350003C531 /* Debug */,
+				9B74D0FD21E349350003C531 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B74D0FE21E349350003C531 /* Build configuration list for PBXNativeTarget "MintUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B74D0FF21E349350003C531 /* Debug */,
+				9B74D10021E349350003C531 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9B74D0C821E349310003C531 /* Project object */;
+}
