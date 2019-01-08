@@ -8,12 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		9B74D0D421E349310003C531 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B74D0D321E349310003C531 /* AppDelegate.swift */; };
-		9B74D0D621E349310003C531 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B74D0D521E349310003C531 /* ViewController.swift */; };
+		9B74D0D621E349310003C531 /* EventPassKeyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B74D0D521E349310003C531 /* EventPassKeyViewController.swift */; };
 		9B74D0D921E349310003C531 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B74D0D721E349310003C531 /* Main.storyboard */; };
 		9B74D0DB21E349340003C531 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B74D0DA21E349340003C531 /* Assets.xcassets */; };
 		9B74D0DE21E349340003C531 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B74D0DC21E349340003C531 /* LaunchScreen.storyboard */; };
 		9B74D0E921E349350003C531 /* MintTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B74D0E821E349350003C531 /* MintTests.swift */; };
 		9B74D0F421E349350003C531 /* MintUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B74D0F321E349350003C531 /* MintUITests.swift */; };
+		9B74D14421E4A9150003C531 /* ServerAdress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B74D14321E4A9150003C531 /* ServerAdress.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +37,7 @@
 /* Begin PBXFileReference section */
 		9B74D0D021E349310003C531 /* Mint.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mint.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B74D0D321E349310003C531 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9B74D0D521E349310003C531 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9B74D0D521E349310003C531 /* EventPassKeyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventPassKeyViewController.swift; sourceTree = "<group>"; };
 		9B74D0D821E349310003C531 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9B74D0DA21E349340003C531 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9B74D0DD21E349340003C531 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +48,7 @@
 		9B74D0EF21E349350003C531 /* MintUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MintUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B74D0F321E349350003C531 /* MintUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MintUITests.swift; sourceTree = "<group>"; };
 		9B74D0F521E349350003C531 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B74D14321E4A9150003C531 /* ServerAdress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerAdress.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +80,7 @@
 			isa = PBXGroup;
 			children = (
 				9B74D0D221E349310003C531 /* Mint */,
+				9B74D10421E34C9F0003C531 /* Supporting files */,
 				9B74D0E721E349350003C531 /* MintTests */,
 				9B74D0F221E349350003C531 /* MintUITests */,
 				9B74D0D121E349310003C531 /* Products */,
@@ -97,12 +100,11 @@
 		9B74D0D221E349310003C531 /* Mint */ = {
 			isa = PBXGroup;
 			children = (
-				9B74D0D321E349310003C531 /* AppDelegate.swift */,
-				9B74D0D521E349310003C531 /* ViewController.swift */,
-				9B74D0D721E349310003C531 /* Main.storyboard */,
-				9B74D0DA21E349340003C531 /* Assets.xcassets */,
-				9B74D0DC21E349340003C531 /* LaunchScreen.storyboard */,
+				9B74D10321E34C560003C531 /* Model */,
+				9B74D10221E34C430003C531 /* View */,
+				9B74D10121E34C120003C531 /* Controller */,
 				9B74D0DF21E349340003C531 /* Info.plist */,
+				9B74D0DA21E349340003C531 /* Assets.xcassets */,
 			);
 			path = Mint;
 			sourceTree = "<group>";
@@ -123,6 +125,39 @@
 				9B74D0F521E349350003C531 /* Info.plist */,
 			);
 			path = MintUITests;
+			sourceTree = "<group>";
+		};
+		9B74D10121E34C120003C531 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9B74D0D521E349310003C531 /* EventPassKeyViewController.swift */,
+				9B74D0D321E349310003C531 /* AppDelegate.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		9B74D10221E34C430003C531 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9B74D0D721E349310003C531 /* Main.storyboard */,
+				9B74D0DC21E349340003C531 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9B74D10321E34C560003C531 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9B74D14321E4A9150003C531 /* ServerAdress.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9B74D10421E34C9F0003C531 /* Supporting files */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Supporting files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,7 +291,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9B74D0D621E349310003C531 /* ViewController.swift in Sources */,
+				9B74D0D621E349310003C531 /* EventPassKeyViewController.swift in Sources */,
+				9B74D14421E4A9150003C531 /* ServerAdress.swift in Sources */,
 				9B74D0D421E349310003C531 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
