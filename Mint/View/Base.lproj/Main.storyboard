@@ -108,20 +108,5 @@
             </objects>
             <point key="canvasLocation" x="2674" y="134"/>
         </scene>
-        <!--Right Side PanelVC-->
-        <scene sceneID="4eX-h1-Y57">
-            <objects>
-                <viewController id="bEJ-Fp-64G" customClass="RightSidePanelVC" customModule="Mint" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="dTe-jX-F6j">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <viewLayoutGuide key="safeArea" id="YcE-zn-6fb"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Ms9-JF-KyN" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="3409" y="132"/>
-        </scene>
     </scenes>
 </document>
