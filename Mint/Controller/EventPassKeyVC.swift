@@ -8,7 +8,7 @@
 
 import UIKit
 
-class EventPassKeyViewController: UIViewController {
+class EventPassKeyVC: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

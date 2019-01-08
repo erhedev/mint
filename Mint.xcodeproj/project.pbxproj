@@ -8,13 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		9B74D0D421E349310003C531 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B74D0D321E349310003C531 /* AppDelegate.swift */; };
-		9B74D0D621E349310003C531 /* EventPassKeyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B74D0D521E349310003C531 /* EventPassKeyViewController.swift */; };
+		9B74D0D621E349310003C531 /* EventPassKeyVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B74D0D521E349310003C531 /* EventPassKeyVC.swift */; };
 		9B74D0D921E349310003C531 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B74D0D721E349310003C531 /* Main.storyboard */; };
 		9B74D0DB21E349340003C531 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B74D0DA21E349340003C531 /* Assets.xcassets */; };
 		9B74D0DE21E349340003C531 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B74D0DC21E349340003C531 /* LaunchScreen.storyboard */; };
 		9B74D0E921E349350003C531 /* MintTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B74D0E821E349350003C531 /* MintTests.swift */; };
 		9B74D0F421E349350003C531 /* MintUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B74D0F321E349350003C531 /* MintUITests.swift */; };
 		9B74D14421E4A9150003C531 /* ServerAdress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B74D14321E4A9150003C531 /* ServerAdress.swift */; };
+		9B74D14621E4AEAD0003C531 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B74D14521E4AEAD0003C531 /* HomeVC.swift */; };
+		9B74D14C21E4B2680003C531 /* LeftSidePanelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B74D14B21E4B2680003C531 /* LeftSidePanelVC.swift */; };
+		9B74D14E21E4B2A90003C531 /* RightSidePanelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B74D14D21E4B2A90003C531 /* RightSidePanelVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +40,7 @@
 /* Begin PBXFileReference section */
 		9B74D0D021E349310003C531 /* Mint.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mint.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B74D0D321E349310003C531 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9B74D0D521E349310003C531 /* EventPassKeyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventPassKeyViewController.swift; sourceTree = "<group>"; };
+		9B74D0D521E349310003C531 /* EventPassKeyVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventPassKeyVC.swift; sourceTree = "<group>"; };
 		9B74D0D821E349310003C531 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9B74D0DA21E349340003C531 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9B74D0DD21E349340003C531 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +52,9 @@
 		9B74D0F321E349350003C531 /* MintUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MintUITests.swift; sourceTree = "<group>"; };
 		9B74D0F521E349350003C531 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9B74D14321E4A9150003C531 /* ServerAdress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerAdress.swift; sourceTree = "<group>"; };
+		9B74D14521E4AEAD0003C531 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		9B74D14B21E4B2680003C531 /* LeftSidePanelVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeftSidePanelVC.swift; sourceTree = "<group>"; };
+		9B74D14D21E4B2A90003C531 /* RightSidePanelVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RightSidePanelVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,8 +136,11 @@
 		9B74D10121E34C120003C531 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				9B74D0D521E349310003C531 /* EventPassKeyViewController.swift */,
+				9B74D0D521E349310003C531 /* EventPassKeyVC.swift */,
+				9B74D14521E4AEAD0003C531 /* HomeVC.swift */,
 				9B74D0D321E349310003C531 /* AppDelegate.swift */,
+				9B74D14B21E4B2680003C531 /* LeftSidePanelVC.swift */,
+				9B74D14D21E4B2A90003C531 /* RightSidePanelVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -291,9 +300,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9B74D0D621E349310003C531 /* EventPassKeyViewController.swift in Sources */,
+				9B74D0D621E349310003C531 /* EventPassKeyVC.swift in Sources */,
+				9B74D14621E4AEAD0003C531 /* HomeVC.swift in Sources */,
 				9B74D14421E4A9150003C531 /* ServerAdress.swift in Sources */,
 				9B74D0D421E349310003C531 /* AppDelegate.swift in Sources */,
+				9B74D14C21E4B2680003C531 /* LeftSidePanelVC.swift in Sources */,
+				9B74D14E21E4B2A90003C531 /* RightSidePanelVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
